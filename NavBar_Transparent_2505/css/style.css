@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Geneva;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/cityy.jpg);
+    background-size: cover;
+}
+.box1{
+    width: 200;
+    height: 81px;
+    background-color: #0009;
+    line-height: 80px;   
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 1s all;
+}
+nav ul li:hover{
+    background-color:#135552;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(224, 189, 13);
+    padding: 20px;
+    font-size: 18px;
+}
